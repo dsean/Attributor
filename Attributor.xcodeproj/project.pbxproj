@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143C5551195AE5B40069F08E /* TextStatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C5550195AE5B40069F08E /* TextStatesViewController.m */; };
 		144BE8AB19596BAB0032B2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144BE8AA19596BAB0032B2EC /* Foundation.framework */; };
 		144BE8AD19596BAB0032B2EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144BE8AC19596BAB0032B2EC /* CoreGraphics.framework */; };
 		144BE8AF19596BAB0032B2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144BE8AE19596BAB0032B2EC /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143C554F195AE5B40069F08E /* TextStatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatesViewController.h; sourceTree = "<group>"; };
+		143C5550195AE5B40069F08E /* TextStatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatesViewController.m; sourceTree = "<group>"; };
 		144BE8A719596BAB0032B2EC /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144BE8AA19596BAB0032B2EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		144BE8AC19596BAB0032B2EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,9 +115,9 @@
 		144BE8B019596BAB0032B2EC /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				144BE8B919596BAB0032B2EC /* AttributorAppDelegate.h */,
-				144BE8BA19596BAB0032B2EC /* AttributorAppDelegate.m */,
 				144BE8BC19596BAB0032B2EC /* Main.storyboard */,
+				143C554F195AE5B40069F08E /* TextStatesViewController.h */,
+				143C5550195AE5B40069F08E /* TextStatesViewController.m */,
 				144BE8BF19596BAB0032B2EC /* AttributorViewController.h */,
 				144BE8C019596BAB0032B2EC /* AttributorViewController.m */,
 				144BE8C219596BAB0032B2EC /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		144BE8B119596BAB0032B2EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				144BE8B919596BAB0032B2EC /* AttributorAppDelegate.h */,
+				144BE8BA19596BAB0032B2EC /* AttributorAppDelegate.m */,
 				144BE8B219596BAB0032B2EC /* Attributor-Info.plist */,
 				144BE8B319596BAB0032B2EC /* InfoPlist.strings */,
 				144BE8B619596BAB0032B2EC /* main.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144BE8BB19596BAB0032B2EC /* AttributorAppDelegate.m in Sources */,
+				143C5551195AE5B40069F08E /* TextStatesViewController.m in Sources */,
 				144BE8C119596BAB0032B2EC /* AttributorViewController.m in Sources */,
 				144BE8B719596BAB0032B2EC /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				144BE8DB19596BAB0032B2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		144BE8DC19596BAB0032B2EC /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				144BE8DE19596BAB0032B2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
